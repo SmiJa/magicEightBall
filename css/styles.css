@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Didact Gothic';
+    background-image: url("../img/BG.jpg");
+    background-position: top center;
+}
+
+#main-wrap {
+    width: 960px;
+    margin: auto;
+    height: 100vh;
+
+    /* border: 1px solid red; */
+}
+
+#page-header {
+    width: 100%;
+}
+
+#top-logo {
+    width: 400px;
+    margin: auto;
+}
+
+#top-logo img {
+    width: 100%;
+}
+
+#main-logo {
+    width: 960px;
+    margin: auto;
+}
+
+#main-logo img {
+    width: 100%;
+}
+
+
+
+/* #main-wrap,
+#ball-wrap,
+#question-wrap,
+label {
+    display: block;
+}
+
+#main-wrap {
+    width: 400px;
+    margin: 20px auto;
+}
+
+#ball-wrap {
+    height: 400px;
+}
+
+#question-wrap {
+    padding: 5px;
+}
+
+#question-wrap input {
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+#btn-wrap {
+    padding: 5px;
+}
+
+#btn-wrap button {
+    width: 100%;
+} */
