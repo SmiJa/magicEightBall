@@ -11,11 +11,11 @@ function getAnswer(num){
 
 function askQuestion() {
     let answer = getAnswer(types.length);
-    console.clear();
 
     if (questionInput.value === "") {
         alert("Please be sure to ask a question.");
     }
     // console.log(types[0][4]);
-    return ballWrap.innerText = answer;
+    questionInput.value = "";
+    return answerBox.innerText = answer;
 }
