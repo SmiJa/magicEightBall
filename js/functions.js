@@ -14,6 +14,7 @@ function askQuestion() {
 
     if (questionInput.value === "") {
         alert("Please be sure to ask a question.");
+        return;
     }
     // console.log(types[0][4]);
     answerBox.classList.add('animate');
