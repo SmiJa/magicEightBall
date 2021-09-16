@@ -20,6 +20,7 @@ function askQuestion() {
         return;
     }
     // console.log(types[0][4]);
+    answerBox.innerHTML = "";
     answerBox.classList.add('animate');
     questionInput.value = "";
     setTimeout(() => {answerBox.classList.remove('animate')}, 3100)
