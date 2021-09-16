@@ -15,6 +15,9 @@ function askQuestion() {
     if (questionInput.value === "") {
         alert("Please be sure to ask a question.");
         return;
+    } else if (questionInput.value.length < 6) {
+        alert("Your input is too short.");
+        return;
     }
     // console.log(types[0][4]);
     answerBox.classList.add('animate');
