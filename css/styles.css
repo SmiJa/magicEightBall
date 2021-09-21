@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Nanum Gothic';
-    background-image: url("../img/BG.jpg");
+    background-image: url("../img/compressed/BG.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,12 +76,6 @@ body {
     position: absolute;
 }
 
-#answer-box:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-}
-
 #answer {
     width: 100%;
 }
@@ -123,7 +117,7 @@ body {
 }
 @media (max-width: 960px) {
     #box-wrap {
-        width: 50%;
+        width: 65%;
     }
 }
 
@@ -134,7 +128,7 @@ body {
         font-size: 1.3rem;
     }
     #box-wrap {
-        width: 63%;
+        width: 80%;
     }
 }
 

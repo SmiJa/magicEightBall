@@ -19,7 +19,7 @@ function askQuestion() {
         alert("Your input is too short.");
         return;
     }
-    // console.log(types[0][4]);
+    
     answerBox.innerHTML = "";
     answerBox.classList.add('animate');
     questionInput.value = "";
