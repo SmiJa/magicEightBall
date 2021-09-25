@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
 
 body {
@@ -53,11 +54,11 @@ body {
 
 #box-wrap {
     width: 42%;
-    margin: 50px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
 #box-wrap img {
@@ -162,6 +163,26 @@ body {
     
     #btn-wrap button {
         font-size: .8rem;
+    }
+}
+
+@media (max-width: 290px) {
+    #box-wrap {
+        width: 50%;
+    }
+
+    #answer-box {
+        font-size: .4rem;
+        /* border: 1px red solid; */
+        width: 25%;
+    }
+
+    #question-wrap input {
+        font-size: .7rem;
+    }
+    
+    #btn-wrap button {
+        font-size: .6rem;
     }
 }
 
