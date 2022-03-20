@@ -1,7 +1,7 @@
 export default class Main {
   constructor(){
-    this._logoMain = "../img/LogoMain.png";
-    this._logoTop = "../img/logoTop.png";    
+    this._logoMain = "../img/compressed/LogoMain.webp";
+    this._logoTop = "../img/compressed/logoTop.webp";    
   }
 
   get logoMain() {
