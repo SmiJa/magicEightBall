@@ -1,7 +1,11 @@
 export default class Main {
   constructor(){
     this._logoMain = "../img/compressed/LogoMain.webp";
-    this._logoTop = "../img/compressed/logoTop.webp";    
+    this._logoTop = "../img/compressed/logoTop.webp";
+    this._boxImg = "../img/compressed/Box.webp";
+    this._logoMainHosted = "https://smija.github.io/magicEightBall/img/compressed/LogoMain.webp";
+    this._logoTopHosted = "https://smija.github.io/magicEightBall/img/compressed/logoTop.webp";
+    this._boxImgHosted = "https://smija.github.io/magicEightBall/img/compressed/Box.webp"    
   }
 
   get logoMain() {
@@ -34,11 +38,11 @@ export default class Main {
     pageHeader.id = 'page-header';
 
     topLogo.id = 'top-logo';
-    topLogoImg.src = this._logoTop;
+    topLogoImg.src = this._logoTopHosted;
     topLogo.appendChild(topLogoImg);
 
     mainLogo.id = 'main-logo';
-    mainLogoImg.src = this._logoMain;
+    mainLogoImg.src = this._logoMainHosted;
     mainLogo.appendChild(mainLogoImg);
 
     pageHeader.appendChild(topLogo);
@@ -46,10 +50,31 @@ export default class Main {
 
     // Box row. Contains the magic box.
     const boxRow = document.createElement('div');
+    boxRow.id = "box-row";
+
     const boxWrap = document.createElement('div');
+    boxWrap.id = 'box-wrap';
+
     const boxImg = document.createElement('img');
+    boxImg.src = this._boxImgHosted;
+
     const answerBox = document.createElement('div');
+    answerBox.id = "answer-box";
+
     const answerText = document.createElement('p');
+    answerText.id = 'answer';
+
+    const filler = document.createElement('span');
+    filler.classList.add = 'filler';
+    filler.innerText = '?';
+
+    boxRow.appendChild(boxWrap);
+    boxWrap.appendChild(boxImg);
+    boxWrap.appendChild(answerBox);
+    answerBox.appendChild(answerText);
+    answerText.appendChild(filler);
+
+    
 
     // Form section.
     const form = document.createElement('div');
