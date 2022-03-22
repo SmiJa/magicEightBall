@@ -1,3 +1,5 @@
-import Main from './classes.js';
+import { Main, BuildUI} from './classes.js';
 const test = new Main();
-console.log(test.buildGame());
+const UI = new BuildUI();
+UI.buildGame();
+// test.buildGame();
