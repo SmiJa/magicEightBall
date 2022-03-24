@@ -72,13 +72,14 @@ body {
     font-size: 200%;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: 800;
     z-index: 2;
     position: absolute;
 }
 
 #answer {
-    width: 100%;
+    width: 46%;
 }
 
 #question-wrap,
@@ -119,6 +120,10 @@ body {
 @media (max-width: 960px) {
     #box-wrap {
         width: 65%;
+    }
+
+    #answer {
+        width: 70%;
     }
 }
 
