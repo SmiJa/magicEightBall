@@ -4,6 +4,7 @@
     margin: 0;
 
 }
+html { height: 100vh; }
 
 body {
     font-family: 'Nanum Gothic';
