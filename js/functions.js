@@ -1,7 +1,7 @@
 function randNum(num) {
-    let selection = Math.floor((Math.random() * num));
+    // let selection = Math.floor((Math.random() * num));
     // console.log(`Random num: ${selection}`);
-    return selection;
+    return Math.floor((Math.random() * num));
 }
 
 function getAnswer(num){
