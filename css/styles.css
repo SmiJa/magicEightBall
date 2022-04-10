@@ -6,12 +6,12 @@
 }
 html {
     min-height: 100%;
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); /* Safari on iOS fix only */
     background-image: url("../img/compressed/BG.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: aqua; /* Testing this color */
+    background-color: rgb(37, 1, 62);
 }
 
 body {
